@@ -12,4 +12,9 @@ public class MyList extends AbstractList<String> {
     public int size() {
         return 0;
     }
+
+    @Override
+    public void add(int index, String element) {
+        // no-op
+    }
 }
