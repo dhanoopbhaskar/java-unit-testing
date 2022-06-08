@@ -61,7 +61,7 @@ public class EnableMockitoAnnotationTest {
 
         Exception exception = assertThrows(NullPointerException.class, () -> {
             mockedList.size();
-            throw new NullPointerException();
+            throw new NullPointerException(); // remove this if @ExtendWith(MockitoExtension.class) is not there
         });
 
     }
