@@ -1,4 +1,4 @@
-package mockito03;
+package mockito;
 
 import java.util.AbstractList;
 

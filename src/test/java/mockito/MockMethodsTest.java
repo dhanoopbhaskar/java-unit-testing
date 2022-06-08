@@ -1,5 +1,4 @@
-package mockito03;
-
+package mockito;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.MockSettings;
